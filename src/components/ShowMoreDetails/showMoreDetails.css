@@ -1,0 +1,56 @@
+.rotate {
+  transform: rotate(180deg);
+}
+.bookDetails__showMoreIcon {
+  vertical-align: middle;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.margin {
+  margin-top: 10px;
+}
+
+.bookDetails__showMore {
+  padding-top: 1px;
+  font-family: "Helios";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313037;
+}
+
+.bookDetails__show,
+.bookDetails__hide {
+  animation-iteration-count: 1;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.bookDetails__show {
+  animation-name: show;
+}
+.bookDetails__hide {
+  animation-name: hide;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    height: 0%;
+  }
+  100% {
+    opacity: 1;
+    height: 23%;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+    height: 120px;
+  }
+  100% {
+    opacity: 0;
+    height: 0px;
+  }
+}

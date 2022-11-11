@@ -1,0 +1,10 @@
+.counter {
+  display: flex;
+  gap: 23px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.increment {
+  padding: 19px;
+}

@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 1px solid #e7e7e7;
+  margin-top: auto;
+}
+
+.footer__item {
+  font-family: "Helios";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a8a8a8;
+}

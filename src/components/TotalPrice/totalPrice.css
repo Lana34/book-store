@@ -1,0 +1,49 @@
+.totalPrice {
+  width: 256px;
+  margin-left: auto;
+  margin-bottom: 72px;
+}
+
+.totalPrice .totalPrice__sum,
+.totalPrice__vat,
+.total__sum {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPrice__sum,
+.totalPrice__vat {
+  font-family: "Helios";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313037;
+}
+
+.totalPrice__sum {
+  margin-bottom: 16px;
+}
+.totalPrice__itemName {
+  color: #a8a8a8;
+}
+
+.total__sum {
+  margin: 24px 0px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #313037;
+}
+
+.totalPrice__button {
+  width: 100%;
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  height: 56px;
+  background: #313037;
+}

@@ -1,0 +1,8 @@
+.backStep {
+  margin-bottom: 37px;
+  fill: #313037;
+}
+
+.backStep:hover {
+  fill: #98979c;
+}

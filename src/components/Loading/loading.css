@@ -1,0 +1,9 @@
+.loading {
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.loading__item {
+  width: 500px;
+}

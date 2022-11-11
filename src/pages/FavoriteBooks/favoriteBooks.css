@@ -1,0 +1,23 @@
+.noFavoriteBooks {
+  min-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  font-size: 28px;
+  line-height: 32px;
+  color: #a8a8a8;
+}
+
+.favoriteBooks {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.favoriteBook_iconWrapper {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.favoriteBook_icon {
+  fill: #fc857f;
+}

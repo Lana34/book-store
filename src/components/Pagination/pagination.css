@@ -1,0 +1,48 @@
+.pagination {
+  display: flex;
+  width: 100%;
+  max-height: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 49px 0px 73px;
+  border-top: 1px solid #e7e7e7;
+}
+.pagination__prevButton,
+.pagination__nextButton {
+  border: none;
+  background: none;
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  color: #313037;
+  cursor: pointer;
+}
+
+.pagination__pages {
+  display: flex;
+  gap: 32px;
+}
+.pagination__pagesWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.pagination__input {
+  max-width: 35px;
+}
+
+.pagination__page {
+  color: #a8a8a8;
+  cursor: pointer;
+}
+.active {
+  color: #313037;
+}
+.pagination__prevButton,
+.pagination__nextButton,
+.pagination__page {
+  font-family: "Helios";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}

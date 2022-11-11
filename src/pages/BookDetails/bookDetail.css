@@ -1,0 +1,102 @@
+.bookDetails {
+  margin-bottom: 72px;
+}
+
+.bookDetails__name {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  color: #313037;
+  margin-bottom: 48px;
+}
+
+.bookDetails__block {
+  display: flex;
+  gap: 128px;
+}
+.bookDetails__imgWrapper {
+  flex: 1 1 auto;
+  max-width: 544px;
+  height: 472px;
+  position: relative;
+}
+.bookDetails__favorite {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bookDetails__img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 300px;
+  height: 350px;
+  top: 61px;
+}
+
+.bookDetails__data {
+  max-width: 448px;
+  flex: 1 1 auto;
+}
+.bookDetails__price {
+  padding-bottom: 9px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #313037;
+}
+
+.bookDetails__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  font-family: "Helios";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #313037;
+}
+
+.bookDetails__itemName {
+  color: #a8a8a8;
+}
+
+.bookDetails__itemValue {
+  text-align: right;
+}
+
+.bookDetails__addBtn {
+  font-family: "Bebas Neue";
+  width: 100%;
+  height: 56px;
+  margin-top: 59px;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #313037;
+  margin-bottom: 40px;
+}
+.bookDetails__addBtn:hover {
+  background: #3d3d41;
+}
+
+.bookDetails__addBtn:active {
+  background: #000000;
+  color: #a49e9e;
+}
+
+.bookDetails__preview {
+  text-align: center;
+}
+
+.bookDetails__Link {
+  text-decoration: none;
+  font-family: "Helios";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313037;
+}

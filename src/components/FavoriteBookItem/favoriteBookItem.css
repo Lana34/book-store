@@ -1,0 +1,48 @@
+.favoriteBook_item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #e7e7e7;
+  position: relative;
+}
+
+.favoriteBook_imgWrapper {
+  text-align: center;
+  width: 256px;
+  height: 192px;
+}
+
+.favoriteBook_img {
+  width: 163px;
+  height: 191px;
+}
+.favoriteBook_data {
+  max-width: 448px;
+  word-break: break-all;
+}
+.favoriteBook_title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.favoriteBook_authors {
+  font-family: "Helios";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a8a8a8;
+  margin-bottom: 24px;
+}
+
+.favoriteBook_price {
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  gap: 188px;
+}
+.favoriteBook_title,
+.favoriteBook_price {
+  line-height: 32px;
+  color: #313037;
+}

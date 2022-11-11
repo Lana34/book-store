@@ -1,0 +1,50 @@
+.books__item {
+  list-style-type: none;
+  min-width: 352px;
+  display: flex;
+  flex-direction: column;
+}
+.books__img {
+  width: 226px;
+  height: 264px;
+}
+
+.books__imgWrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.books__title,
+.books__subtitle {
+  max-width: 335px;
+  word-wrap: break-word;
+  margin-bottom: 8px;
+}
+
+.books__title,
+.books__price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #313037;
+  text-decoration: none;
+}
+
+.books__subtitle {
+  font-family: "Helios";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+
+.books__title:hover {
+  color: #706e7a;
+}
+
+.book__data {
+  display: flex;
+  justify-content: space-between;
+}
