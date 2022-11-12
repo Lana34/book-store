@@ -7,9 +7,15 @@ import { Search } from "../Search/Search";
 import { CartIcon } from "../Icons/HeaderIcons/CartIcon";
 import { FavoriteIcon } from "../Icons/HeaderIcons/FavoriteIcon";
 import { SignInIcon } from "../Icons/HeaderIcons/SignInIcon";
+import { useAuth } from "../../hooks/useAuth";
+import { removeUser } from "../../store/userStore/userSlise";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "../../store/store";
 
 export const Header = () => {
   const navigate = useNavigate();
+  const { isAuth } = useAuth();
+  const dispatch: AppDispatch = useDispatch();
   return (
     <header className="header">
       <img
@@ -37,13 +43,23 @@ export const Header = () => {
           <CartIcon />
         </NavLink>
         <NavLink
-          to={"222"}
+          to={PagesNames.AUTHORIZATION}
           className={({ isActive }) =>
             isActive ? "header__link active" : "header__link"
           }
         >
           <SignInIcon />
         </NavLink>
+        {isAuth ? (
+          <button
+            className="header__signOutBtn"
+            onClick={() => dispatch(removeUser())}
+          >
+            Sign out
+          </button>
+        ) : (
+          <></>
+        )}
       </div>
     </header>
   );

@@ -1,8 +1,10 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import booksSlise from "./bookStore/bookStore";
+import userSlise from "./userStore/userSlise";
 
 const rootReducer = combineReducers({
   books: booksSlise,
+  user: userSlise,
 });
 
 export const store = configureStore({

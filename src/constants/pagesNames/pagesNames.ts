@@ -5,4 +5,5 @@ export enum PagesNames {
   FAVORITES_BOOKS = "/favorites",
   CART = "/cart",
   SEARCH = "/search",
+  AUTHORIZATION = "/authorization",
 }

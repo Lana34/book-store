@@ -1,0 +1,58 @@
+.authForm {
+  max-width: 480px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.authForm__inputName {
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.authForm__email {
+  margin-bottom: 16px;
+}
+
+.authForm__email,
+.authForm__password {
+  height: 40px;
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.authForm__email,
+.authForm__password,
+.authForm__inputName {
+  font-family: "Helios";
+
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.authForm__button {
+  height: 56px;
+  background: #313037;
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 40px 0px;
+}
+
+.authForm__status {
+  text-align: center;
+  padding-top: 8px;
+  color: #7f94bb;
+  font-size: 19px;
+}
+
+.authForm__button:hover {
+  background: #403e46;
+}
+
+.authForm__button:active {
+  background: #4d4d51;
+}

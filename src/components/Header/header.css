@@ -28,3 +28,21 @@
   width: 137.51px;
   height: 28.64px;
 }
+
+.header__signOutBtn {
+  background-color: white;
+  border: none;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  padding: 0;
+}
+
+.header__signOutBtn:hover {
+  color: darkgrey;
+}
+
+.header__signOutBtn:active {
+  color: rgb(126, 125, 125);
+}
